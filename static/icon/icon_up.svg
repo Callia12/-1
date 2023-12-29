@@ -1,0 +1,27 @@
+<svg id="icon_shang" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+        opacity: 0;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="矩形_29" data-name="矩形 29" class="cls-1">
+    <rect class="cls-3" width="12" height="12"/>
+    <rect class="cls-4" x="0.5" y="0.5" width="11" height="11"/>
+  </g>
+  <path id="路径_34" data-name="路径 34" class="cls-2" d="M114.6,293.169c-.306,0-.5-.482-.267-.759l2.633-3.108a.326.326,0,0,1,.527,0l2.633,3.108c.228.27.05.759-.263.759Z" transform="translate(-111.226 -285.169)"/>
+</svg>

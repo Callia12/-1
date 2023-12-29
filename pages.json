@@ -1,0 +1,228 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/firstPage/home",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/connections/connections",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/public/teacherFrom/teacherFrom",
+			"style": {
+				"navigationBarTitleText": "教师编辑",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/public/infoForm/infoForm",
+			"style": {
+				"navigationBarTitleText": "编辑",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/personal/feedback/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/personal/lighting/lighting",
+			"style": {
+				"navigationBarTitleText": "我的点亮",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/course/course",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/firstPage/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/firstPage/payPublicity/payPublicity",
+			"style": {
+				"navigationBarTitleText": "捐赠支出公示",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 100
+			}
+		}, {
+			"path": "pages/firstPage/realInfoList/realInfoList",
+			"style": {
+				"navigationBarTitleText": "资讯",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 100
+			}
+		}, {
+			"path": "pages/firstPage/activeList/activeList",
+			"style": {
+				"navigationBarTitleText": "活动",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 10
+			}
+		}, {
+			"path": "pages/connections/alumnDetail/alumnDetail",
+			"style": {
+				"navigationBarTitleText": "校友详情",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/personal/friendApply/friendApply",
+			"style": {
+				"navigationBarTitleText": "查阅申请",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/public/attestSearch/attestSearch",
+			"style": {
+				"navigationBarTitleText": "认证-搜索",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/public/aSearchResult/aSearchResult",
+			"style": {
+				"navigationBarTitleText": "认证-搜索",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personal/appeal/appeal",
+			"style": {
+				"navigationBarTitleText": "申诉",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/firstPage/article/article",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/firstPage/getMore/getMore",
+			"style": {
+				"navigationBarTitleText": "校友杰出榜",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 10
+			}
+
+		}, {
+			"path": "pages/connections/shoolDetail/shoolDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/connections/newFriend/newFriend",
+			"style": {
+				"navigationBarTitleText": "新的好友",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/connections/myFriend/myFriend",
+			"style": {
+				"navigationBarTitleText": "我的好友",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/firstPage/getDonateMore/getDonateMore",
+			"style": {
+				"navigationBarTitleText": "校友捐赠榜",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/firstPage/getLightMore/getLightMore",
+			"style": {
+				"navigationBarTitleText": "点亮榜",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/course/courseDetail/courseDetail",
+			"style": {
+				"navigationBarTitleText": "课程详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/course/videoDetail/videoDetail",
+			"style": {
+				"navigationBarTitleText": "课程详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/course/moreCourse/moreCourse",
+			"style": {
+				"navigationBarTitleText": "校友通讯录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/course/myCollection/myCollection",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"style": {
+		"app-plus": {
+			"softinputMode": "adjustPan"
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "校友通讯录",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#0F77FF",
+		// "fontSize": "50rpx",
+		"list": [{
+				"pagePath": "pages/firstPage/home",
+				"text": "首页",
+				"iconPath": "static/icon/icon_homed.png",
+				"selectedIconPath": "static/icon/icon_home.png"
+			},
+			{
+				"pagePath": "pages/connections/connections",
+				"text": "通讯录",
+				"iconPath": "static/icon/icon_renm1.png",
+				"selectedIconPath": "static/icon/icon_renm2.png"
+			},
+			{
+				"pagePath": "pages/course/course",
+				"text": "资料库",
+				"iconPath": "static/icon/icon_kec1.png",
+				"selectedIconPath": "static/icon/icon_kec2.png"
+			},
+			{
+				"pagePath": "pages/personal/personal",
+				"text": "个人",
+				"iconPath": "static/icon/icon_ger1.png",
+				"selectedIconPath": "static/icon/icon_ger2.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

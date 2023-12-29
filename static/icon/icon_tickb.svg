@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #0f77ff;
+        stroke: #0f77ff;
+        stroke-width: 0.4px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="icon_xuanz2" transform="translate(-327 -16)">
+    <g id="矩形_40" data-name="矩形 40" class="cls-1" transform="translate(327 16)">
+      <rect class="cls-3" width="20" height="20"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="19" height="19"/>
+    </g>
+    <path id="路径_44" data-name="路径 44" class="cls-2" d="M157.925,253.335a.424.424,0,0,0-.6.02l-5.638,6.019-2.923-2.456a.424.424,0,1,0-.546.65l3.231,2.714a.425.425,0,0,0,.583-.035l5.913-6.311A.424.424,0,0,0,157.925,253.335Z" transform="translate(183.276 -231.224)"/>
+  </g>
+</svg>
